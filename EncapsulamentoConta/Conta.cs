@@ -11,38 +11,45 @@ namespace EncapsulamentoConta
         private int numero;
         private string? titular;
         private double saldo;
-        // Segunda etapa -> criar os métodos de encapsulamento set e get
+        // Segunda etapa -> criar os métodos de encapsulamento get e set
         public int Numero // c maiúsculo é função/implícita
         {
-            set{
-                this.numero = value;
-            }
-
             get{
                 return this.numero;
+            }
+
+            set{
+                this.numero = value;
             }
         }
 
         public string? Titular
         {
-            set{
-                this.titular = value;
-            }
-
             get{
                 return this.titular;
+            }
+
+            set{
+                this.titular = value;
             }
         }
 
         public double Saldo
         {
-            set{
-                this.saldo = value;
+            get 
+            { 
+                return saldo; 
             }
-
-            get{
-                return this.saldo;
+            set 
+            { 
+                saldo = value; 
             }
         }
+
+        public void MostrarAtributos()
+        {
+            Console.WriteLine($"Número: {Numero}\tTitular: {Titular}\tSaldo: {Saldo:c}");
+        }
+        
     }
 }
