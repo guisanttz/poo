@@ -30,7 +30,10 @@ namespace EncapsulamentoConta
             }
 
             set{
-                this.titular = value;
+                if (this.titular != "")
+                    this.titular = value;
+                else
+                    Console.WriteLine("Nome inválido!");
             }
         }
 
@@ -42,7 +45,10 @@ namespace EncapsulamentoConta
             }
             set 
             { 
-                saldo = value; 
+                if (value >= 0)
+                    saldo = value;
+                else
+                    Console.WriteLine("Saldo negativo não aceito!");
             }
         }
 
