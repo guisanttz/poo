@@ -15,22 +15,13 @@ namespace EncapsulamentoFuncionario
 
         public int Matricula
         {
-            get
-            {
-                return this.matricula;
-            }
-            set
-            {
-                matricula = value;
-            }
+            get { return this.matricula; }
+            set { matricula = value; }
         }
 
-        public string Nome
+        public string? Nome
         {
-            get
-            {
-                return this.nome;
-            }
+            get { return this.nome; }
             set
             {
                 if (value != "")
@@ -46,9 +37,9 @@ namespace EncapsulamentoFuncionario
             set { salario = value; }
         }
 
-        public double CalcularAumento(int aumento, Funcionario Salario)
+        public void CalcularAumento(int aumento)
         {
-            return salario + (salario * (aumento / 100) );
+            Salario += Salario * aumento / 100.0;
         }
 
         public void MostrarAtributos()

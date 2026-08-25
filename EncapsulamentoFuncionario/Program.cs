@@ -15,5 +15,6 @@ internal class Program
         Console.WriteLine("Digite a porcentagem de aumento: ");
         aumento = Convert.ToInt32(Console.ReadLine());
         f1.CalcularAumento(aumento);
+        f1.MostrarAtributos();
     }
 }
