@@ -1,0 +1,15 @@
+C:\Users\gui\POO\ConstrutorConta\bin\Debug\net10.0\ConstrutorConta.exe
+C:\Users\gui\POO\ConstrutorConta\bin\Debug\net10.0\ConstrutorConta.deps.json
+C:\Users\gui\POO\ConstrutorConta\bin\Debug\net10.0\ConstrutorConta.runtimeconfig.json
+C:\Users\gui\POO\ConstrutorConta\bin\Debug\net10.0\ConstrutorConta.dll
+C:\Users\gui\POO\ConstrutorConta\bin\Debug\net10.0\ConstrutorConta.pdb
+C:\Users\gui\POO\ConstrutorConta\obj\Debug\net10.0\ConstrutorConta.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gui\POO\ConstrutorConta\obj\Debug\net10.0\ConstrutorConta.AssemblyInfoInputs.cache
+C:\Users\gui\POO\ConstrutorConta\obj\Debug\net10.0\ConstrutorConta.AssemblyInfo.cs
+C:\Users\gui\POO\ConstrutorConta\obj\Debug\net10.0\ConstrutorConta.csproj.CoreCompileInputs.cache
+C:\Users\gui\POO\ConstrutorConta\obj\Debug\net10.0\ConstrutorConta.sourcelink.json
+C:\Users\gui\POO\ConstrutorConta\obj\Debug\net10.0\ConstrutorConta.dll
+C:\Users\gui\POO\ConstrutorConta\obj\Debug\net10.0\refint\ConstrutorConta.dll
+C:\Users\gui\POO\ConstrutorConta\obj\Debug\net10.0\ConstrutorConta.pdb
+C:\Users\gui\POO\ConstrutorConta\obj\Debug\net10.0\ConstrutorConta.genruntimeconfig.cache
+C:\Users\gui\POO\ConstrutorConta\obj\Debug\net10.0\ref\ConstrutorConta.dll
