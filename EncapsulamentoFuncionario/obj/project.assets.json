@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gui\\Desktop\\POO\\EncapsulamentoFuncionario\\EncapsulamentoFuncionario.csproj",
+      "projectUniqueName": "C:\\Users\\gui\\POO\\EncapsulamentoFuncionario\\EncapsulamentoFuncionario.csproj",
       "projectName": "EncapsulamentoFuncionario",
-      "projectPath": "C:\\Users\\gui\\Desktop\\POO\\EncapsulamentoFuncionario\\EncapsulamentoFuncionario.csproj",
+      "projectPath": "C:\\Users\\gui\\POO\\EncapsulamentoFuncionario\\EncapsulamentoFuncionario.csproj",
       "packagesPath": "C:\\Users\\gui\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gui\\Desktop\\POO\\EncapsulamentoFuncionario\\obj\\",
+      "outputPath": "C:\\Users\\gui\\POO\\EncapsulamentoFuncionario\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\gui\\AppData\\Roaming\\NuGet\\NuGet.Config"

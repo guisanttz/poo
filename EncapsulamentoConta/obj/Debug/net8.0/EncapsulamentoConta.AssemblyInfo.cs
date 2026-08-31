@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EncapsulamentoConta")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+374593fa7bd54bd40b8f31942633905159423c29")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f7cc931c7be26527893f0cec8f6a7f968946dd1a")]
 [assembly: System.Reflection.AssemblyProductAttribute("EncapsulamentoConta")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EncapsulamentoConta")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

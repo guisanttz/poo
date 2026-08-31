@@ -11,7 +11,6 @@ namespace EncapsulamentoFuncionario
         private int matricula;
         private string nome;
         private double salario;
-        private int aumento;
 
         public int Matricula
         {
