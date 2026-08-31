@@ -32,7 +32,7 @@ namespace EncapsulamentoFuncionario
 
         public double Salario
         {
-            get { return salario; }
+            get { return this.salario; }
             set { salario = value; }
         }
 
