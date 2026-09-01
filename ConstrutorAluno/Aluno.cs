@@ -7,7 +7,7 @@ namespace ConstrutorAluno
 {
     public class Aluno
     {
-        public static long Ra { get; set; }
+        public static long Ra = 1570482513000;
         public static int Contador { get; set; }
         public string? Nome { get; set; }
         public void MostrarAtributos()
