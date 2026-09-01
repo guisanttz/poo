@@ -1,0 +1,15 @@
+C:\Users\gui\POO\AgregacaoContaArray\bin\Debug\net10.0\AgregacaoContaArray.exe
+C:\Users\gui\POO\AgregacaoContaArray\bin\Debug\net10.0\AgregacaoContaArray.deps.json
+C:\Users\gui\POO\AgregacaoContaArray\bin\Debug\net10.0\AgregacaoContaArray.runtimeconfig.json
+C:\Users\gui\POO\AgregacaoContaArray\bin\Debug\net10.0\AgregacaoContaArray.dll
+C:\Users\gui\POO\AgregacaoContaArray\bin\Debug\net10.0\AgregacaoContaArray.pdb
+C:\Users\gui\POO\AgregacaoContaArray\obj\Debug\net10.0\AgregacaoContaArray.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gui\POO\AgregacaoContaArray\obj\Debug\net10.0\AgregacaoContaArray.AssemblyInfoInputs.cache
+C:\Users\gui\POO\AgregacaoContaArray\obj\Debug\net10.0\AgregacaoContaArray.AssemblyInfo.cs
+C:\Users\gui\POO\AgregacaoContaArray\obj\Debug\net10.0\AgregacaoContaArray.csproj.CoreCompileInputs.cache
+C:\Users\gui\POO\AgregacaoContaArray\obj\Debug\net10.0\AgregacaoContaArray.sourcelink.json
+C:\Users\gui\POO\AgregacaoContaArray\obj\Debug\net10.0\AgregacaoContaArray.dll
+C:\Users\gui\POO\AgregacaoContaArray\obj\Debug\net10.0\refint\AgregacaoContaArray.dll
+C:\Users\gui\POO\AgregacaoContaArray\obj\Debug\net10.0\AgregacaoContaArray.pdb
+C:\Users\gui\POO\AgregacaoContaArray\obj\Debug\net10.0\AgregacaoContaArray.genruntimeconfig.cache
+C:\Users\gui\POO\AgregacaoContaArray\obj\Debug\net10.0\ref\AgregacaoContaArray.dll
