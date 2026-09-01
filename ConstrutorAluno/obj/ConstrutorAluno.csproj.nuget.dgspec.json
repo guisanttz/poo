@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gui\\POO\\ConstrutorAluno\\ConstrutorAluno.csproj": {}
+    "c:\\Users\\gui\\POO\\ConstrutorAluno\\ConstrutorAluno.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gui\\POO\\ConstrutorAluno\\ConstrutorAluno.csproj": {
+    "c:\\Users\\gui\\POO\\ConstrutorAluno\\ConstrutorAluno.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gui\\POO\\ConstrutorAluno\\ConstrutorAluno.csproj",
+        "projectUniqueName": "c:\\Users\\gui\\POO\\ConstrutorAluno\\ConstrutorAluno.csproj",
         "projectName": "ConstrutorAluno",
-        "projectPath": "C:\\Users\\gui\\POO\\ConstrutorAluno\\ConstrutorAluno.csproj",
+        "projectPath": "c:\\Users\\gui\\POO\\ConstrutorAluno\\ConstrutorAluno.csproj",
         "packagesPath": "C:\\Users\\gui\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gui\\POO\\ConstrutorAluno\\obj\\",
+        "outputPath": "c:\\Users\\gui\\POO\\ConstrutorAluno\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gui\\AppData\\Roaming\\NuGet\\NuGet.Config"

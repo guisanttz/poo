@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gui\\POO\\AgregacaoConta\\AgregacaoConta.csproj": {}
+    "c:\\Users\\gui\\POO\\AgregacaoConta\\AgregacaoConta.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gui\\POO\\AgregacaoConta\\AgregacaoConta.csproj": {
+    "c:\\Users\\gui\\POO\\AgregacaoConta\\AgregacaoConta.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gui\\POO\\AgregacaoConta\\AgregacaoConta.csproj",
+        "projectUniqueName": "c:\\Users\\gui\\POO\\AgregacaoConta\\AgregacaoConta.csproj",
         "projectName": "AgregacaoConta",
-        "projectPath": "C:\\Users\\gui\\POO\\AgregacaoConta\\AgregacaoConta.csproj",
+        "projectPath": "c:\\Users\\gui\\POO\\AgregacaoConta\\AgregacaoConta.csproj",
         "packagesPath": "C:\\Users\\gui\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gui\\POO\\AgregacaoConta\\obj\\",
+        "outputPath": "c:\\Users\\gui\\POO\\AgregacaoConta\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gui\\AppData\\Roaming\\NuGet\\NuGet.Config"
