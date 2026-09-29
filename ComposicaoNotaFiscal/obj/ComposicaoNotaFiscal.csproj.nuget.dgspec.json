@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\gui\\poo\\ComposicaoNotaFiscal\\ComposicaoNotaFiscal.csproj": {}
+    "C:\\Users\\gui\\poo\\ComposicaoNotaFiscal\\ComposicaoNotaFiscal.csproj": {}
   },
   "projects": {
-    "c:\\Users\\gui\\poo\\ComposicaoNotaFiscal\\ComposicaoNotaFiscal.csproj": {
+    "C:\\Users\\gui\\poo\\ComposicaoNotaFiscal\\ComposicaoNotaFiscal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\gui\\poo\\ComposicaoNotaFiscal\\ComposicaoNotaFiscal.csproj",
+        "projectUniqueName": "C:\\Users\\gui\\poo\\ComposicaoNotaFiscal\\ComposicaoNotaFiscal.csproj",
         "projectName": "ComposicaoNotaFiscal",
-        "projectPath": "c:\\Users\\gui\\poo\\ComposicaoNotaFiscal\\ComposicaoNotaFiscal.csproj",
+        "projectPath": "C:\\Users\\gui\\poo\\ComposicaoNotaFiscal\\ComposicaoNotaFiscal.csproj",
         "packagesPath": "C:\\Users\\gui\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\gui\\poo\\ComposicaoNotaFiscal\\obj\\",
+        "outputPath": "C:\\Users\\gui\\poo\\ComposicaoNotaFiscal\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gui\\AppData\\Roaming\\NuGet\\NuGet.Config"

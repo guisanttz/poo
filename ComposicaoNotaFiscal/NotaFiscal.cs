@@ -10,17 +10,25 @@ namespace ComposicaoNotaFiscal
         public int NumeroNf { get; set; }
         public string? Data { get; set; }
         public List<ItemNotaFiscal> VetItemNf { get; set; }
-        public NotaFiscal(int numeroNf, string data)
+        public NotaFiscal(int numeroNf, string data, List<ItemNotaFiscal> vetItem)
         {
             NumeroNf = numeroNf;
             Data = data;
-            VetItemNf = new List<ItemNotaFiscal>();
+            VetItemNf = vetItem;
+        }
+        public void Mostrar()
+        {
+            Console.WriteLine($"Número da nota fiscal: {NumeroNf}");
+            foreach (var item in VetItemNf)
+            {
+                item.Mostrar();
+            }
         }
         ~NotaFiscal()
         {
             {
-            Console.WriteLine("Destrutor da nota fiscal");
-        }
+                Console.WriteLine("Destrutor da nota fiscal");
+            }
         }
     }
 }
