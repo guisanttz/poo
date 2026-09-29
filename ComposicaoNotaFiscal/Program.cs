@@ -7,3 +7,5 @@ vetI.Add(it1);
 vetI.Add(it2);
 NotaFiscal nf = new NotaFiscal(1, "28/09/2026",vetI);
 nf.Mostrar();
+nf = null; // retira a referência da instância
+GC.Collect(); // força a chamada do coletor de lixo

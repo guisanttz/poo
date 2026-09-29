@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AzEJ9Tjr2Ds=",
+  "dgSpecHash": "Y5tHi3Ll5AU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\gui\\POO\\EncapsulamentoConta\\EncapsulamentoConta.csproj",
+  "projectFilePath": "C:\\Users\\gui\\poo\\EncapsulamentoConta\\EncapsulamentoConta.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gui\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.25\\microsoft.netcore.app.ref.8.0.25.nupkg.sha512",
     "C:\\Users\\gui\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.25\\microsoft.windowsdesktop.app.ref.8.0.25.nupkg.sha512",

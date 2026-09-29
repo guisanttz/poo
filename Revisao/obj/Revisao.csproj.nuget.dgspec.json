@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gui\\POO\\Revisao\\Revisao.csproj": {}
+    "C:\\Users\\gui\\poo\\Revisao\\Revisao.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gui\\POO\\Revisao\\Revisao.csproj": {
+    "C:\\Users\\gui\\poo\\Revisao\\Revisao.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gui\\POO\\Revisao\\Revisao.csproj",
+        "projectUniqueName": "C:\\Users\\gui\\poo\\Revisao\\Revisao.csproj",
         "projectName": "Revisao",
-        "projectPath": "C:\\Users\\gui\\POO\\Revisao\\Revisao.csproj",
+        "projectPath": "C:\\Users\\gui\\poo\\Revisao\\Revisao.csproj",
         "packagesPath": "C:\\Users\\gui\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gui\\POO\\Revisao\\obj\\",
+        "outputPath": "C:\\Users\\gui\\poo\\Revisao\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gui\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gui\\POO\\AgregacaoContaArray\\AgregacaoContaArray.csproj": {}
+    "C:\\Users\\gui\\poo\\AgregacaoContaArray\\AgregacaoContaArray.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gui\\POO\\AgregacaoContaArray\\AgregacaoContaArray.csproj": {
+    "C:\\Users\\gui\\poo\\AgregacaoContaArray\\AgregacaoContaArray.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gui\\POO\\AgregacaoContaArray\\AgregacaoContaArray.csproj",
+        "projectUniqueName": "C:\\Users\\gui\\poo\\AgregacaoContaArray\\AgregacaoContaArray.csproj",
         "projectName": "AgregacaoContaArray",
-        "projectPath": "C:\\Users\\gui\\POO\\AgregacaoContaArray\\AgregacaoContaArray.csproj",
+        "projectPath": "C:\\Users\\gui\\poo\\AgregacaoContaArray\\AgregacaoContaArray.csproj",
         "packagesPath": "C:\\Users\\gui\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gui\\POO\\AgregacaoContaArray\\obj\\",
+        "outputPath": "C:\\Users\\gui\\poo\\AgregacaoContaArray\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gui\\AppData\\Roaming\\NuGet\\NuGet.Config"

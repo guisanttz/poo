@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lVCGXWe1mZU=",
+  "dgSpecHash": "NR7jbQMLQEI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\gui\\POO\\ArrayConta\\ArrayConta.csproj",
+  "projectFilePath": "C:\\Users\\gui\\poo\\ArrayConta\\ArrayConta.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gui\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.25\\microsoft.netcore.app.ref.8.0.25.nupkg.sha512",
     "C:\\Users\\gui\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.25\\microsoft.windowsdesktop.app.ref.8.0.25.nupkg.sha512",

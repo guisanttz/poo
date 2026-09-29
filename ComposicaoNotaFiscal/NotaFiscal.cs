@@ -18,7 +18,7 @@ namespace ComposicaoNotaFiscal
         }
         public void Mostrar()
         {
-            Console.WriteLine($"Número da nota fiscal: {NumeroNf}");
+            Console.WriteLine($"Número da nota fiscal: {NumeroNf} Data: {Data}");
             foreach (var item in VetItemNf)
             {
                 item.Mostrar();

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gui\\POO\\ConstrutorConta\\ConstrutorConta.csproj": {}
+    "C:\\Users\\gui\\poo\\ConstrutorConta\\ConstrutorConta.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gui\\POO\\ConstrutorConta\\ConstrutorConta.csproj": {
+    "C:\\Users\\gui\\poo\\ConstrutorConta\\ConstrutorConta.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gui\\POO\\ConstrutorConta\\ConstrutorConta.csproj",
+        "projectUniqueName": "C:\\Users\\gui\\poo\\ConstrutorConta\\ConstrutorConta.csproj",
         "projectName": "ConstrutorConta",
-        "projectPath": "C:\\Users\\gui\\POO\\ConstrutorConta\\ConstrutorConta.csproj",
+        "projectPath": "C:\\Users\\gui\\poo\\ConstrutorConta\\ConstrutorConta.csproj",
         "packagesPath": "C:\\Users\\gui\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gui\\POO\\ConstrutorConta\\obj\\",
+        "outputPath": "C:\\Users\\gui\\poo\\ConstrutorConta\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gui\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gui\\POO\\EncapsulamentoConta\\EncapsulamentoConta.csproj": {}
+    "C:\\Users\\gui\\poo\\EncapsulamentoConta\\EncapsulamentoConta.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gui\\POO\\EncapsulamentoConta\\EncapsulamentoConta.csproj": {
+    "C:\\Users\\gui\\poo\\EncapsulamentoConta\\EncapsulamentoConta.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gui\\POO\\EncapsulamentoConta\\EncapsulamentoConta.csproj",
+        "projectUniqueName": "C:\\Users\\gui\\poo\\EncapsulamentoConta\\EncapsulamentoConta.csproj",
         "projectName": "EncapsulamentoConta",
-        "projectPath": "C:\\Users\\gui\\POO\\EncapsulamentoConta\\EncapsulamentoConta.csproj",
+        "projectPath": "C:\\Users\\gui\\poo\\EncapsulamentoConta\\EncapsulamentoConta.csproj",
         "packagesPath": "C:\\Users\\gui\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gui\\POO\\EncapsulamentoConta\\obj\\",
+        "outputPath": "C:\\Users\\gui\\poo\\EncapsulamentoConta\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gui\\AppData\\Roaming\\NuGet\\NuGet.Config"
