@@ -7,18 +7,25 @@ namespace AgregacaoVenda
 {
     public class Comprador
     {
-        public double Verba { get; set; }
-        public Comprador(double verba)
+        private double verba;
+        public double Verba
         {
-            Verba = verba;
+            get { return verba; }
+            set 
+            { 
+                if (value >= 0)
+                    verba = value;
+                else
+                    verba = 0; 
+            }
         }
         public void DiminuirVerba()
         {
-            
+
         }
         public void MostrarAtributo()
         {
-            
+
         }
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\gui\\poo\\AgregacaoVenda\\AgregacaoVenda.csproj": {}
+    "C:\\Users\\gui\\poo\\AgregacaoVenda\\AgregacaoVenda.csproj": {}
   },
   "projects": {
-    "c:\\Users\\gui\\poo\\AgregacaoVenda\\AgregacaoVenda.csproj": {
+    "C:\\Users\\gui\\poo\\AgregacaoVenda\\AgregacaoVenda.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\gui\\poo\\AgregacaoVenda\\AgregacaoVenda.csproj",
+        "projectUniqueName": "C:\\Users\\gui\\poo\\AgregacaoVenda\\AgregacaoVenda.csproj",
         "projectName": "AgregacaoVenda",
-        "projectPath": "c:\\Users\\gui\\poo\\AgregacaoVenda\\AgregacaoVenda.csproj",
+        "projectPath": "C:\\Users\\gui\\poo\\AgregacaoVenda\\AgregacaoVenda.csproj",
         "packagesPath": "C:\\Users\\gui\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\gui\\poo\\AgregacaoVenda\\obj\\",
+        "outputPath": "C:\\Users\\gui\\poo\\AgregacaoVenda\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gui\\AppData\\Roaming\\NuGet\\NuGet.Config"

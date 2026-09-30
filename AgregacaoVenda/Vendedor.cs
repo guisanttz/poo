@@ -7,18 +7,25 @@ namespace AgregacaoVenda
 {
     public class Vendedor
     {
-        public double Comissao { get; set; }
-        public Vendedor(double comissao)
+        private double comissao;
+        public double Comissao
         {
-            Comissao = comissao;
+            get { return comissao; }
+            set
+            {
+                if (value >= 0)
+                    comissao = value;
+                else
+                    comissao = 0;
+            }
         }
-        public void CalcularComissao()
+        public void CalcularComissao(double precoProduto)
         {
-            
+            Comissao = precoProduto * 0.02;
         }
         public void MostrarAtributos()
         {
-            Console.WriteLine("");
+            Console.WriteLine($"Comissão: R$ {Comissao:c}");
         }
     }
 }

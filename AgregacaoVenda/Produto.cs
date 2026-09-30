@@ -7,13 +7,19 @@ namespace AgregacaoVenda
 {
     public class Produto
     {
-        private int codigo = 501;
+        private int codigo;
         private string? nome;
         private double preco;
         public int Codigo
         {
             get { return codigo; }
-            set { codigo = value; }
+            set 
+            { 
+                if (value > 501)
+                    codigo = value;
+                else
+                    codigo = 501;
+            }
         }
         public string? Nome
         {
@@ -24,12 +30,18 @@ namespace AgregacaoVenda
         public double Preco
         {
             get { return preco; }
-            set { preco = value; }
+            set 
+            { 
+                if (value >= 0)
+                    preco = value;
+                else
+                    preco = 0; 
+            }
         }
 
         public Produto(int codigo, string nome, double preco)
         {
-            Codigo = codigo;
+            Codigo = 501;
             Nome = nome;
             Preco = preco;
         }
