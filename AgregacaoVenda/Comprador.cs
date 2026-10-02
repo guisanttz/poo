@@ -25,7 +25,10 @@ namespace AgregacaoVenda
         }
         public void DiminuirVerba(double valor)
         {
-            Verba -= valor;
+            if (valor <= Verba)
+                Verba -= valor;
+            else
+                Console.WriteLine("Verba insuficiente");
         }
         public void MostrarAtributo()
         {

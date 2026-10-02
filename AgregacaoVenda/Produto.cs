@@ -39,7 +39,7 @@ namespace AgregacaoVenda
             }
         }
 
-        public Produto(int codigo, string nome, double preco)
+        public Produto(string nome, double preco)
         {
             Codigo = 501;
             Nome = nome;
