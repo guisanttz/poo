@@ -19,13 +19,17 @@ namespace AgregacaoVenda
                     verba = 0; 
             }
         }
-        public void DiminuirVerba()
+        public Comprador(double verba)
         {
-
+            Verba = verba;
+        }
+        public void DiminuirVerba(double valor)
+        {
+            Verba -= valor;
         }
         public void MostrarAtributo()
         {
-
+            Console.WriteLine($"Verba: R${Verba:c}");
         }
     }
 }
