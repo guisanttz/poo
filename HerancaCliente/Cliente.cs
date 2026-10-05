@@ -19,6 +19,11 @@ namespace HerancaCliente
             get { return nome; }
             set { nome = value; }
         }
+        public Cliente(int codigo, string? nome)
+        {
+            Codigo = codigo;
+            Nome = nome;
+        }
         /* public void Mostrar(){
             Console.WriteLine($"Código: {codigo}\nNome: {nome}")
         } */
