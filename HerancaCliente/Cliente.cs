@@ -27,8 +27,8 @@ namespace HerancaCliente
             Codigo = codigo;
             Nome = nome;
         }
-        /* public void Mostrar(){
-            Console.WriteLine($"Código: {codigo}\nNome: {nome}")
-        } */
+        public void Mostrar(){
+            Console.WriteLine($"Código: {codigo}\tNome: {nome}");
+        }
     }
 }

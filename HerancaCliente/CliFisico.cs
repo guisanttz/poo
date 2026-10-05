@@ -8,15 +8,16 @@ namespace HerancaCliente
     public class CliFisico : Cliente  // CliFisico está herdando atributos/metodos presentes na classe Cliente
     {
         public int Rg { get; set; }
-        public CliFisico() : base()
+        public CliFisico() : base() // chama o construtor da classe base
         {
         }
-        public CliFisico(int codigo, string? nome) : base(codigo, nome)
+        public CliFisico(int codigo, string? nome, int rg) : base(codigo, nome)
         {
             Rg = rg;
         }
         public void Mostrar(){
-            Console.WriteLine($"Código: {codigo}\tNome: {nome}");
+            base.Mostrar();         // chama o método da classe base
+            Console.WriteLine($"RG: {Rg}");
         }
     }
 }
