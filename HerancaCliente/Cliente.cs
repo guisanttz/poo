@@ -19,6 +19,9 @@ namespace HerancaCliente
             get { return nome; }
             set { nome = value; }
         }
+        public Cliente()
+        {
+        }
         public Cliente(int codigo, string? nome)
         {
             Codigo = codigo;
