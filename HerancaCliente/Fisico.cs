@@ -5,13 +5,13 @@ using System.Threading.Tasks;
 
 namespace HerancaCliente
 {   // classe derivada : classe base
-    public class CliFisico : Cliente  // CliFisico está herdando atributos/metodos presentes na classe Cliente
+    public class Fisico : Cliente  // CliFisico está herdando atributos/metodos presentes na classe Cliente
     {
         public int Rg { get; set; }
-        public CliFisico() : base() // chama o construtor da classe base
+        public Fisico() : base() // chama o construtor da classe base
         {
         }
-        public CliFisico(int codigo, string? nome, int rg) : base(codigo, nome)
+        public Fisico(int codigo, string? nome, int rg) : base(codigo, nome)
         {
             Rg = rg;
         }
