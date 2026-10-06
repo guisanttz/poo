@@ -1,0 +1,5 @@
+C:\Users\aluno\poo\HerancaMensalista\obj\Debug\net8.0\HerancaMensalista.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aluno\poo\HerancaMensalista\obj\Debug\net8.0\HerancaMensalista.AssemblyInfoInputs.cache
+C:\Users\aluno\poo\HerancaMensalista\obj\Debug\net8.0\HerancaMensalista.AssemblyInfo.cs
+C:\Users\aluno\poo\HerancaMensalista\obj\Debug\net8.0\HerancaMensalista.csproj.CoreCompileInputs.cache
+C:\Users\aluno\poo\HerancaMensalista\obj\Debug\net8.0\HerancaMensalista.sourcelink.json

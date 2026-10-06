@@ -31,6 +31,13 @@ namespace HerancaMensalista
             get { return qntdHorasTrabalhadas; }
             set { qntdHorasTrabalhadas = value; }
         }
-                
+        public void Mostrar()
+        {
+            Console.WriteLine($"Código: {Codigo}   Nome: {Nome}\nSalário: {Salario:c}   Qntd Horas Trabalhadas: {QntdHorasTrabalhadas}h");
+        }
+        public double CalcularSalario()
+        {
+            return salario * qtdeHorasTrabalhadas / 30;
+        }
     }
 }
