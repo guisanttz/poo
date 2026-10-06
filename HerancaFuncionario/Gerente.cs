@@ -12,7 +12,7 @@ namespace HerancaFuncionario
         }
         
         public override double CalcularBonificacao()
-        {   // a palavra virtual sinaliza o polimorfismo
+        {   // a palavra override indica a sobrescrita da logica do metodo para o polimorfismo ocorrer
             return Salario * 15/100;
         }
     }

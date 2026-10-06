@@ -9,6 +9,10 @@ namespace HerancaFuncionario
     {
         public Diretor(int codigo, string? nome, double salario) : base(codigo, nome, salario)
         {
-        }        
+        }      
+        public override double CalcularBonificacao()
+        {   // a palavra virtual sinaliza o polimorfismo
+            return base.CalcularBonificacao() + 1000;
+        }  
     }
 }
