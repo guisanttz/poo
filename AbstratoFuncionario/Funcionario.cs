@@ -10,6 +10,7 @@ namespace AbstratoFuncionario
         public int Codigo { get; set; }
         public string? Nome { get; set; }
         public double Salario { get; set; }
+        public List<Dependente> VetD { get; set; }
         public Funcionario(int codigo, string? nome, double salario)
         {
             Codigo = codigo;
