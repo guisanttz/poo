@@ -7,12 +7,10 @@ namespace HerancaMensalista
 {
     public class Mensalista : Funcionario
     {
-        public Mensalista(int codigo, string? nome, double salario, int qntdHorasTrabalhadas) : base(codigo, nome, salario, qntdHorasTrabalhadas)
+        public override void Mostrar()
         {
-        }
-        public void Mostrar()
-        {
-            Console.WriteLine($"Código: {Codigo}   Nome: {Nome}   Qntd Horas Trabalhadas: {QntdHorasTrabalhadas}h");
+            base.Mostrar();
+            Console.WriteLine($"Qntd Horas Trabalhadas: {QntdHorasTrabalhadas}h\tSalário Calculado: {CalcularSalario():c}");
         }
     }
 }

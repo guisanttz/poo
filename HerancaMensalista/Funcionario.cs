@@ -7,20 +7,33 @@ namespace HerancaMensalista
 {
     public class Funcionario
     {
-        public int Codigo { get; set; }
-        public string? Nome { get; set; }
-        public double Salario { get; set; }
-        public int QntdHorasTrabalhadas { get; set; }
-        public Funcionario(int codigo, string? nome, double salario, int qntdHorasTrabalhadas)
+        protected int codigo;
+        protected string? nome;
+        protected double salario;
+        protected int qntdHorasTrabalhadas;
+        public int Codigo
         {
-            Codigo = codigo;
-            Nome = nome;
-            Salario = salario;
-            QntdHorasTrabalhadas = qntdHorasTrabalhadas;
+            get { return codigo; }
+            set { codigo = value; }
         }
-        public void Mostrar()
+        public string? Nome
         {
-            Console.WriteLine($"Código: {Codigo}   Nome: {Nome}\nSalário: {Salario:c}   Qntd Horas Trabalhadas: {QntdHorasTrabalhadas}h");
+            get { return nome; }
+            set { nome = value; }
+        }
+        public double Salario
+        {
+            get { return salario; }
+            set { salario = value; }
+        }
+        public int QntdHorasTrabalhadas
+        {
+            get { return qntdHorasTrabalhadas; }
+            set { qntdHorasTrabalhadas = value; }
+        }
+        public virtual void Mostrar()
+        {
+            Console.WriteLine($"Código: {Codigo}   Nome: {Nome}");
         }
         public virtual double CalcularSalario()
         {
