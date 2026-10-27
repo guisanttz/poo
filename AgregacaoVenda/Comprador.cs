@@ -32,7 +32,7 @@ namespace AgregacaoVenda
         }
         public void MostrarAtributo()
         {
-            Console.WriteLine($"Verba: R${Verba:c}");
+            Console.WriteLine($"Verba: {Verba:c}");
         }
     }
 }

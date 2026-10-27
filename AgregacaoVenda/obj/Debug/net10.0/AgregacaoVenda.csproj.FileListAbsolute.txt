@@ -1,0 +1,15 @@
+C:\Users\gui\poo\AgregacaoVenda\obj\Debug\net10.0\AgregacaoVenda.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gui\poo\AgregacaoVenda\obj\Debug\net10.0\AgregacaoVenda.AssemblyInfoInputs.cache
+C:\Users\gui\poo\AgregacaoVenda\obj\Debug\net10.0\AgregacaoVenda.AssemblyInfo.cs
+C:\Users\gui\poo\AgregacaoVenda\obj\Debug\net10.0\AgregacaoVenda.csproj.CoreCompileInputs.cache
+C:\Users\gui\poo\AgregacaoVenda\obj\Debug\net10.0\AgregacaoVenda.sourcelink.json
+C:\Users\gui\poo\AgregacaoVenda\bin\Debug\net10.0\AgregacaoVenda.exe
+C:\Users\gui\poo\AgregacaoVenda\bin\Debug\net10.0\AgregacaoVenda.deps.json
+C:\Users\gui\poo\AgregacaoVenda\bin\Debug\net10.0\AgregacaoVenda.runtimeconfig.json
+C:\Users\gui\poo\AgregacaoVenda\bin\Debug\net10.0\AgregacaoVenda.dll
+C:\Users\gui\poo\AgregacaoVenda\bin\Debug\net10.0\AgregacaoVenda.pdb
+C:\Users\gui\poo\AgregacaoVenda\obj\Debug\net10.0\AgregacaoVenda.dll
+C:\Users\gui\poo\AgregacaoVenda\obj\Debug\net10.0\refint\AgregacaoVenda.dll
+C:\Users\gui\poo\AgregacaoVenda\obj\Debug\net10.0\AgregacaoVenda.pdb
+C:\Users\gui\poo\AgregacaoVenda\obj\Debug\net10.0\AgregacaoVenda.genruntimeconfig.cache
+C:\Users\gui\poo\AgregacaoVenda\obj\Debug\net10.0\ref\AgregacaoVenda.dll

@@ -41,7 +41,7 @@ namespace AgregacaoVenda
 
         public Produto(string nome, double preco)
         {
-            Codigo = 501;
+            Codigo += 1;
             Nome = nome;
             Preco = preco;
         }
