@@ -21,11 +21,11 @@ namespace AgregacaoVenda
         }
         public void CalcularComissao(double precoProduto)
         {
-            Comissao += precoProduto * 0.02;
+            comissao += precoProduto * 0.02;
         }
         public void MostrarAtributos()
         {
-            Console.WriteLine($"Comissão: {Comissao:c}");
+            Console.WriteLine($"Comissão: {comissao:c}");
         }
     }
 }

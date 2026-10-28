@@ -18,14 +18,23 @@ namespace AgregacaoVenda
         }
         public void AdicionarProduto(Produto produto)
         {
-            vetProd.Add(produto);
+            if (comp.Verba >= produto.Preco)
+            {
+                vetProd.Add(produto);
+                comp.DiminuirVerba(produto.Preco);
+                vend.CalcularComissao(produto.Preco);
+            }
+
         }
         public void MostrarAtributos()
         {
+            
             foreach (Produto produto in vetProd)
             {
                 produto.MostrarAtributos();
             }
         }
+
+
     }
 }
