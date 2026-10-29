@@ -8,7 +8,7 @@ namespace AbstratoFuncionario
     public class Comissionado : Funcionario
     {
         public double Porcentagem { get; set; }
-        public Comissionado(int codigo, string? nome, double salario, double porcentagem) : base(codigo, nome, salario)
+        public Comissionado(int codigo, string? nome, Endereco endereco, double salario, double porcentagem) : base(codigo, nome, endereco, salario)
         {
             Porcentagem = porcentagem;
         }

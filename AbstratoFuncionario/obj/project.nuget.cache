@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "QWL0WklO5mY=",
+  "dgSpecHash": "HVM++k+akGw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\aluno\\poo\\AbstratoFuncionario\\AbstratoFuncionario.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\guibiel\\poo\\AbstratoFuncionario\\AbstratoFuncionario.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\guibiel\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.25\\microsoft.netcore.app.ref.8.0.25.nupkg.sha512",
+    "C:\\Users\\guibiel\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.25\\microsoft.windowsdesktop.app.ref.8.0.25.nupkg.sha512",
+    "C:\\Users\\guibiel\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.25\\microsoft.aspnetcore.app.ref.8.0.25.nupkg.sha512",
+    "C:\\Users\\guibiel\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.25\\microsoft.netcore.app.host.win-x64.8.0.25.nupkg.sha512"
+  ],
   "logs": []
 }
