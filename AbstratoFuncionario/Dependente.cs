@@ -20,5 +20,9 @@ namespace AbstratoFuncionario
         {
             return Idade >= 18;
         }
+        public void Mostrar()
+        {
+            Console.WriteLine($"Código: {Codigo}\tNome: {Nome}\tIdade: {Idade}");
+        }
     }
 }

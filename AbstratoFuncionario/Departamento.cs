@@ -29,7 +29,7 @@ namespace AbstratoFuncionario
         }
         public void Demitir(int codigoExclusao)
         {
-            for(int i = 0; i < VetF.Count; i++)
+            for (int i = 0; i < VetF.Count; i++)
             {
                 Funcionario f = VetF.ElementAt<Funcionario>(i);
                 if (f.Codigo == codigoExclusao)
@@ -42,12 +42,20 @@ namespace AbstratoFuncionario
         public double CalcularFolha(int diasUteis)
         {
             double folha = 0;
-            for(int i = 0; i < VetF.Count; i++)
+            for (int i = 0; i < VetF.Count; i++)
             {
                 Funcionario f = VetF.ElementAt<Funcionario>(i);
                 folha = folha + f.CalcularSalario(diasUteis);
-            }  
+            }
             return folha;
+        }
+        /* MOSTRAR QNTD DEPENDENTES */
+        public void MostrarQtdeDependentesFuncionario()
+        {
+            foreach (var f in VetF)
+            {
+                System.Console.WriteLine($"Funcionário: {f.Nome}  Qtde Dependentes: {f.CalcularTotalDependente()}");
+            }
         }
     }
 }

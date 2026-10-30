@@ -12,9 +12,10 @@ namespace AbstratoFuncionario
         public Endereco Endereco { get; set; }
         public double Salario { get; set; }
         public List<Dependente> VetD { get; set; }
-        public void AdicionarDependente(Dependente d)
+        public abstract double CalcularSalario(int diasUteis);
+        public void AdicionarDependente(Dependente novoDep)
         {
-            VetD.Add(d);
+            VetD.Add(novoDep);
         }
         public Funcionario(int codigo, string? nome, Endereco endereco, double salario)
         {
@@ -27,19 +28,26 @@ namespace AbstratoFuncionario
         {
             return VetD.Count();
         }
-        public void RemoverDpendentesMaioridade(int codigo)
+        public void RemoverDependentesMaioridade(int codigo)
         {
-            foreach (var dep in VetD)
+            for (int i = 0; i < VetD.Count; i++)
             {
-                if (dep.Codigo == codigo)
+                Dependente d = VetD.ElementAt<Dependente>(i);
+                if (d.Codigo == codigo)
                 {
-                    VetD.Remove(dep);
-                    break;
+                    VetD.Remove(d);
                 }
             }
         }
-        public abstract double CalcularSalario(int diasUteis);
-        public virtual void Mostrar(){
+        public void ListarDependentes()
+        {
+            foreach (var d in VetD)
+            {
+                d.Mostrar();
+            }
+        }
+        public virtual void Mostrar()
+        {
             Console.WriteLine($"Código: {Codigo}\tNome: {Nome}\tSalário: {Salario:c}");
         }
     }
