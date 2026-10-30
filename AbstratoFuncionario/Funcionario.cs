@@ -12,11 +12,6 @@ namespace AbstratoFuncionario
         public Endereco Endereco { get; set; }
         public double Salario { get; set; }
         public List<Dependente> VetD { get; set; }
-        public abstract double CalcularSalario(int diasUteis);
-        public void AdicionarDependente(Dependente novoDep)
-        {
-            VetD.Add(novoDep);
-        }
         public Funcionario(int codigo, string? nome, Endereco endereco, double salario)
         {
             Codigo = codigo;
@@ -27,6 +22,10 @@ namespace AbstratoFuncionario
         public int CalcularTotalDependente()
         {
             return VetD.Count();
+        }
+        public void AdicionarDependente(Dependente novoDep)
+        {
+            VetD.Add(novoDep);
         }
         public void RemoverDependentesMaioridade(int codigo)
         {
@@ -50,5 +49,6 @@ namespace AbstratoFuncionario
         {
             Console.WriteLine($"Código: {Codigo}\tNome: {Nome}\tSalário: {Salario:c}");
         }
+        public abstract double CalcularSalario(int diasUteis);
     }
 }

@@ -7,10 +7,10 @@ Endereco end3 = new Endereco("Rua Diamante", 72, "Jardim das Flores", "President
 Endereco end4 = new Endereco("Rua Rubi", 421, "Jardim das Flores", "Presidente Prudente");
 
 /* Instâncias dos Funcionários */
-Assalariado a1 = new Assalariado(1, "João", end1, 1000);
-Assalariado a2 = new Assalariado(2, "Maria", end2, 1000);
-Comissionado c1 = new Comissionado(3, "José", end3, 1000, 0.20);
-Comissionado c2 = new Comissionado(4, "Alice", end4, 1000, 0.30);
+Assalariado ass1 = new Assalariado(1, "João", end1, 1000);
+Assalariado ass2 = new Assalariado(2, "Maria", end2, 1000);
+Comissionado com1 = new Comissionado(3, "José", end3, 1000, 0.20);
+Comissionado com2 = new Comissionado(4, "Alice", end4, 1000, 0.30);
 
 /* Instâncias dos Dependentes */
 Dependente depen1 = new Dependente(3, "Vitor", 12);
@@ -19,32 +19,34 @@ Dependente depen3 = new Dependente(5, "Pedro", 9);
 Dependente depen4 = new Dependente(6, "Luan", 2);
 
 /* Adicionando Dependentes para os Funcionários */
-a1.VetD = new List<Dependente>();
-a1.AdicionarDependente(depen1);
-a1.AdicionarDependente(depen2);
-a2.VetD = new List<Dependente>();
-a2.AdicionarDependente(depen2);
-c1.VetD = new List<Dependente>();
-c1.AdicionarDependente(depen3);
-c2.VetD = new List<Dependente>();
-c2.AdicionarDependente(depen4);
+ass1.VetD = new List<Dependente>();
+ass1.AdicionarDependente(depen1);
+ass1.AdicionarDependente(depen2);
+ass2.VetD = new List<Dependente>();
+ass2.AdicionarDependente(depen2);
+com1.VetD = new List<Dependente>();
+com1.AdicionarDependente(depen3);
+com2.VetD = new List<Dependente>();
+com2.AdicionarDependente(depen4);
 
 /* Instâncias dos Departamentos */
-Departamento d1 = new Departamento(11, "TI");
-Departamento d2 = new Departamento(12, "RH");
+Departamento depTI = new Departamento(11, "TI");
+Departamento depRH = new Departamento(12, "RH");
 
-d1.VetF = new List<Funcionario>();
-d1.Admitir(a1);
-d1.Admitir(c1);
-d1.Listar();
-System.Console.WriteLine($"Total {d1.CalcularFolha(30)}");
-d1.MostrarQtdeDependentesFuncionario();
+depTI.VetF = new List<Funcionario>();
+depTI.AdmitirFuncionario(ass1);
+depTI.AdmitirFuncionario(com1);
+depTI.ListarNomeFuncionarioESalario();Console.WriteLine($"Total {depTI.CalcularFolhaPagamento(30)}");
+depTI.MostrarQtdeDependentesFuncionario();
 
 
-d2.VetF = new List<Funcionario>();
-d2.Admitir(a2);
-d2.Admitir(c2);
-d2.Listar();
-// d2.Demitir(2); inserir código do funcionário
-System.Console.WriteLine($"Total {d2.CalcularFolha(30)}");
-d2.MostrarQtdeDependentesFuncionario();
+depRH.VetF = new List<Funcionario>();
+depRH.AdmitirFuncionario(ass2);
+depRH.AdmitirFuncionario(com2);
+depRH.ListarNomeFuncionarioESalario();
+Console.WriteLine($"Total {depRH.CalcularFolhaPagamento(30)}");
+depRH.MostrarQtdeDependentesFuncionario();
+
+// Caso queira demitir algum funcionário: 
+
+// depRH.DemitirFuncionario(2); inserir código do funcionário
