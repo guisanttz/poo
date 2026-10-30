@@ -10,24 +10,26 @@ namespace AbstratoFuncionario
         public int Codigo { get; set; }
         public string? Nome { get; set; }
         public List<Funcionario> VetF { get; set; }
-        public void Admitir(Funcionario f)
-        {
-            VetF.Add(f);
-        }
-        public void Listar()
-        {
-            System.Console.WriteLine($"\nDepto: {Nome}.............");
-            foreach (var f in VetF)
-            {
-                f.Mostrar();
-            }
-        }
         public Departamento(int codigo, string? nome)
         {
             Codigo = codigo;
             Nome = nome;
         }
-        public void Demitir(int codigoExclusao)
+        public double CalcularFolhaPagamento(int diasUteis)
+        {
+            double folha = 0;
+            for (int i = 0; i < VetF.Count; i++)
+            {
+                Funcionario f = VetF.ElementAt<Funcionario>(i);
+                folha = folha + f.CalcularSalario(diasUteis);
+            }
+            return folha;
+        }
+        public void AdmitirFuncionario(Funcionario f)
+        {
+            VetF.Add(f);
+        }
+        public void DemitirFuncionario(int codigoExclusao)
         {
             for (int i = 0; i < VetF.Count; i++)
             {
@@ -39,17 +41,14 @@ namespace AbstratoFuncionario
                 }
             }
         }
-        public double CalcularFolha(int diasUteis)
+        public void ListarNomeFuncionarioESalario()
         {
-            double folha = 0;
-            for (int i = 0; i < VetF.Count; i++)
+            System.Console.WriteLine($"\nDepto: {Nome}.............");
+            foreach (var f in VetF)
             {
-                Funcionario f = VetF.ElementAt<Funcionario>(i);
-                folha = folha + f.CalcularSalario(diasUteis);
+                f.Mostrar();
             }
-            return folha;
         }
-        /* MOSTRAR QNTD DEPENDENTES */
         public void MostrarQtdeDependentesFuncionario()
         {
             foreach (var f in VetF)

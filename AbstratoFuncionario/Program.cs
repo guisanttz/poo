@@ -21,6 +21,7 @@ Dependente depen4 = new Dependente(6, "Luan", 2);
 /* Adicionando Dependentes para os Funcionários */
 a1.VetD = new List<Dependente>();
 a1.AdicionarDependente(depen1);
+a1.AdicionarDependente(depen2);
 a2.VetD = new List<Dependente>();
 a2.AdicionarDependente(depen2);
 c1.VetD = new List<Dependente>();
@@ -37,6 +38,8 @@ d1.Admitir(a1);
 d1.Admitir(c1);
 d1.Listar();
 System.Console.WriteLine($"Total {d1.CalcularFolha(30)}");
+d1.MostrarQtdeDependentesFuncionario();
+
 
 d2.VetF = new List<Funcionario>();
 d2.Admitir(a2);
@@ -44,3 +47,4 @@ d2.Admitir(c2);
 d2.Listar();
 // d2.Demitir(2); inserir código do funcionário
 System.Console.WriteLine($"Total {d2.CalcularFolha(30)}");
+d2.MostrarQtdeDependentesFuncionario();
