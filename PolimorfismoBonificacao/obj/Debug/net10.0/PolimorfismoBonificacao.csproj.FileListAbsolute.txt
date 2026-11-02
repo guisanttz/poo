@@ -1,0 +1,15 @@
+C:\Gui\poo\PolimorfismoBonificacao\bin\Debug\net10.0\PolimorfismoBonificacao.exe
+C:\Gui\poo\PolimorfismoBonificacao\bin\Debug\net10.0\PolimorfismoBonificacao.deps.json
+C:\Gui\poo\PolimorfismoBonificacao\bin\Debug\net10.0\PolimorfismoBonificacao.runtimeconfig.json
+C:\Gui\poo\PolimorfismoBonificacao\bin\Debug\net10.0\PolimorfismoBonificacao.dll
+C:\Gui\poo\PolimorfismoBonificacao\bin\Debug\net10.0\PolimorfismoBonificacao.pdb
+C:\Gui\poo\PolimorfismoBonificacao\obj\Debug\net10.0\PolimorfismoBonificacao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Gui\poo\PolimorfismoBonificacao\obj\Debug\net10.0\PolimorfismoBonificacao.AssemblyInfoInputs.cache
+C:\Gui\poo\PolimorfismoBonificacao\obj\Debug\net10.0\PolimorfismoBonificacao.AssemblyInfo.cs
+C:\Gui\poo\PolimorfismoBonificacao\obj\Debug\net10.0\PolimorfismoBonificacao.csproj.CoreCompileInputs.cache
+C:\Gui\poo\PolimorfismoBonificacao\obj\Debug\net10.0\PolimorfismoBonificacao.sourcelink.json
+C:\Gui\poo\PolimorfismoBonificacao\obj\Debug\net10.0\PolimorfismoBonificacao.dll
+C:\Gui\poo\PolimorfismoBonificacao\obj\Debug\net10.0\refint\PolimorfismoBonificacao.dll
+C:\Gui\poo\PolimorfismoBonificacao\obj\Debug\net10.0\PolimorfismoBonificacao.pdb
+C:\Gui\poo\PolimorfismoBonificacao\obj\Debug\net10.0\PolimorfismoBonificacao.genruntimeconfig.cache
+C:\Gui\poo\PolimorfismoBonificacao\obj\Debug\net10.0\ref\PolimorfismoBonificacao.dll
