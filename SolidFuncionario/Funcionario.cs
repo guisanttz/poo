@@ -14,14 +14,8 @@ namespace SolidFuncionario
             Nome = nome;
             Salario = salario;
         }
-        public double CalcularSalario(string tipoFuncionario)
+        public virtual double CalcularSalario(string tipoFuncionario)
         {
-            if (tipoFuncionario == "Permanente")
-                return Salario * 1.3;
-            else if (tipoFuncionario == "Contrato")
-                return Salario;
-            else
-                Console.WriteLine("Tipo inválido");
         }
     }
 }

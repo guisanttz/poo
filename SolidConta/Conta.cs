@@ -30,13 +30,5 @@ namespace SolidConta
             }
             Saldo -= valor;
         }
-        public bool ValidarUsuario(string nome)
-        {
-            return Titular == nome;
-        }
-        public string GerarRelatorio()
-        {
-            return $"Titular: {Titular}\tSaldo: {Saldo:C}";
-        }
     }
 }

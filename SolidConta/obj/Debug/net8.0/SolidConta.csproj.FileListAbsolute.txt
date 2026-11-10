@@ -1,0 +1,5 @@
+C:\Users\aluno\poo\SolidConta\obj\Debug\net8.0\SolidConta.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aluno\poo\SolidConta\obj\Debug\net8.0\SolidConta.AssemblyInfoInputs.cache
+C:\Users\aluno\poo\SolidConta\obj\Debug\net8.0\SolidConta.AssemblyInfo.cs
+C:\Users\aluno\poo\SolidConta\obj\Debug\net8.0\SolidConta.csproj.CoreCompileInputs.cache
+C:\Users\aluno\poo\SolidConta\obj\Debug\net8.0\SolidConta.sourcelink.json
