@@ -9,28 +9,26 @@ namespace ComposicaoBanco
     {
         private List<Poupanca> poupancas;
         private List<Corrente> contas;
-        public List<Poupanca> Poupancas
+        public Banco()
         {
-            get { return poupancas; }
-            set { poupancas = value; }
-        }
-        public List<Corrente> Contas
-        {
-            get { return contas; }
-            set { contas = value; }
+            IniciarBanco();
         }
         public void IniciarBanco()
         {
             poupancas = new List<Poupanca>();
             contas = new List<Corrente>();   
         }
-        public void AbrirConta()
+        public void AbrirConta(double saldo, double chequeEspecial)
         {
-            
+            Corrente contaCorrente = new Corrente(saldo, chequeEspecial);
+            contas.Add(contaCorrente);
+            Console.WriteLine("Nova conta corrente criada.");
         }
-        public void AbrirPoupanca()
+        public void AbrirPoupanca(double saldo)
         {
-            
+            Poupanca contaPoupanca = new Poupanca(saldo);
+            poupancas.Add(contaPoupanca);
+            Console.WriteLine("Nova conta poupança criada.");
         }
     }
 }
