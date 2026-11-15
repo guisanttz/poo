@@ -8,19 +8,19 @@
     "net10.0": []
   },
   "packageFolders": {
-    "C:\\Users\\guibiel\\.nuget\\packages\\": {}
+    "C:\\Users\\gui\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\guibiel\\poo\\ComposicaoBanco\\ComposicaoBanco.csproj",
+      "projectUniqueName": "C:\\Users\\gui\\poo\\ComposicaoBanco\\ComposicaoBanco.csproj",
       "projectName": "ComposicaoBanco",
-      "projectPath": "C:\\Users\\guibiel\\poo\\ComposicaoBanco\\ComposicaoBanco.csproj",
-      "packagesPath": "C:\\Users\\guibiel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\guibiel\\poo\\ComposicaoBanco\\obj\\",
+      "projectPath": "C:\\Users\\gui\\poo\\ComposicaoBanco\\ComposicaoBanco.csproj",
+      "packagesPath": "C:\\Users\\gui\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\gui\\poo\\ComposicaoBanco\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\guibiel\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\gui\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
