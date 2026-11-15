@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Gui\\poo\\PolimorfismoBonificacao\\PolimorfismoBonificacao.csproj",
+      "projectUniqueName": "C:\\Users\\gui\\poo\\PolimorfismoBonificacao\\PolimorfismoBonificacao.csproj",
       "projectName": "PolimorfismoBonificacao",
-      "projectPath": "C:\\Gui\\poo\\PolimorfismoBonificacao\\PolimorfismoBonificacao.csproj",
+      "projectPath": "C:\\Users\\gui\\poo\\PolimorfismoBonificacao\\PolimorfismoBonificacao.csproj",
       "packagesPath": "C:\\Users\\gui\\.nuget\\packages\\",
-      "outputPath": "C:\\Gui\\poo\\PolimorfismoBonificacao\\obj\\",
+      "outputPath": "C:\\Users\\gui\\poo\\PolimorfismoBonificacao\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\gui\\AppData\\Roaming\\NuGet\\NuGet.Config"

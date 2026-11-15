@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PolimorfismoBonificacao")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+75760412ba946c6fc12e9d1c44383c1273887046")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d7323b3134d99a15b9bc371facbe41dc8acd22f8")]
 [assembly: System.Reflection.AssemblyProductAttribute("PolimorfismoBonificacao")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PolimorfismoBonificacao")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

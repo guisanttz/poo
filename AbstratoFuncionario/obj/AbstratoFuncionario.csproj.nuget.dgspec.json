@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\guibiel\\poo\\AbstratoFuncionario\\AbstratoFuncionario.csproj": {}
+    "C:\\Users\\gui\\poo\\AbstratoFuncionario\\AbstratoFuncionario.csproj": {}
   },
   "projects": {
-    "C:\\Users\\guibiel\\poo\\AbstratoFuncionario\\AbstratoFuncionario.csproj": {
+    "C:\\Users\\gui\\poo\\AbstratoFuncionario\\AbstratoFuncionario.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\guibiel\\poo\\AbstratoFuncionario\\AbstratoFuncionario.csproj",
+        "projectUniqueName": "C:\\Users\\gui\\poo\\AbstratoFuncionario\\AbstratoFuncionario.csproj",
         "projectName": "AbstratoFuncionario",
-        "projectPath": "C:\\Users\\guibiel\\poo\\AbstratoFuncionario\\AbstratoFuncionario.csproj",
-        "packagesPath": "C:\\Users\\guibiel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\guibiel\\poo\\AbstratoFuncionario\\obj\\",
+        "projectPath": "C:\\Users\\gui\\poo\\AbstratoFuncionario\\AbstratoFuncionario.csproj",
+        "packagesPath": "C:\\Users\\gui\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gui\\poo\\AbstratoFuncionario\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\guibiel\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\gui\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
