@@ -1,0 +1,15 @@
+C:\Users\gui\poo\ComposicaoBanco\bin\Debug\net10.0\ComposicaoBanco.exe
+C:\Users\gui\poo\ComposicaoBanco\bin\Debug\net10.0\ComposicaoBanco.deps.json
+C:\Users\gui\poo\ComposicaoBanco\bin\Debug\net10.0\ComposicaoBanco.runtimeconfig.json
+C:\Users\gui\poo\ComposicaoBanco\bin\Debug\net10.0\ComposicaoBanco.dll
+C:\Users\gui\poo\ComposicaoBanco\bin\Debug\net10.0\ComposicaoBanco.pdb
+C:\Users\gui\poo\ComposicaoBanco\obj\Debug\net10.0\ComposicaoBanco.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gui\poo\ComposicaoBanco\obj\Debug\net10.0\ComposicaoBanco.AssemblyInfoInputs.cache
+C:\Users\gui\poo\ComposicaoBanco\obj\Debug\net10.0\ComposicaoBanco.AssemblyInfo.cs
+C:\Users\gui\poo\ComposicaoBanco\obj\Debug\net10.0\ComposicaoBanco.csproj.CoreCompileInputs.cache
+C:\Users\gui\poo\ComposicaoBanco\obj\Debug\net10.0\ComposicaoBanco.sourcelink.json
+C:\Users\gui\poo\ComposicaoBanco\obj\Debug\net10.0\ComposicaoBanco.dll
+C:\Users\gui\poo\ComposicaoBanco\obj\Debug\net10.0\refint\ComposicaoBanco.dll
+C:\Users\gui\poo\ComposicaoBanco\obj\Debug\net10.0\ComposicaoBanco.pdb
+C:\Users\gui\poo\ComposicaoBanco\obj\Debug\net10.0\ComposicaoBanco.genruntimeconfig.cache
+C:\Users\gui\poo\ComposicaoBanco\obj\Debug\net10.0\ref\ComposicaoBanco.dll

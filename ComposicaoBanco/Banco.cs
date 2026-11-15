@@ -13,10 +13,16 @@ namespace ComposicaoBanco
         {
             IniciarBanco();
         }
+        ~Banco()
+        {
+            DescretarFalencia();
+            Console.WriteLine("Banco destruído");
+        }
         public void IniciarBanco()
         {
             poupancas = new List<Poupanca>();
-            contas = new List<Corrente>();   
+            contas = new List<Corrente>();
+            Console.WriteLine("Banco inicializado.");
         }
         public void AbrirConta(double saldo, double chequeEspecial)
         {
@@ -30,5 +36,13 @@ namespace ComposicaoBanco
             poupancas.Add(contaPoupanca);
             Console.WriteLine("Nova conta poupança criada.");
         }
+        public void DescretarFalencia()
+        {
+            contas = null;
+            poupancas = null;
+            Console.WriteLine("Falência do Banco decretada.");
+        }
+        public List<Corrente> Correntes => contas;
+        public List<Poupanca> Poupancas => poupancas;
     }
 }
