@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\gui\\poo\\InterfaceITributavel\\InterfaceITributavel.csproj": {}
+    "C:\\Users\\gui\\poo\\InterfaceITributavel\\InterfaceITributavel.csproj": {}
   },
   "projects": {
-    "c:\\Users\\gui\\poo\\InterfaceITributavel\\InterfaceITributavel.csproj": {
+    "C:\\Users\\gui\\poo\\InterfaceITributavel\\InterfaceITributavel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\gui\\poo\\InterfaceITributavel\\InterfaceITributavel.csproj",
+        "projectUniqueName": "C:\\Users\\gui\\poo\\InterfaceITributavel\\InterfaceITributavel.csproj",
         "projectName": "InterfaceITributavel",
-        "projectPath": "c:\\Users\\gui\\poo\\InterfaceITributavel\\InterfaceITributavel.csproj",
+        "projectPath": "C:\\Users\\gui\\poo\\InterfaceITributavel\\InterfaceITributavel.csproj",
         "packagesPath": "C:\\Users\\gui\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\gui\\poo\\InterfaceITributavel\\obj\\",
+        "outputPath": "C:\\Users\\gui\\poo\\InterfaceITributavel\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gui\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -1,0 +1,15 @@
+C:\Users\gui\poo\InterfaceITributavel\bin\Debug\net10.0\InterfaceITributavel.exe
+C:\Users\gui\poo\InterfaceITributavel\bin\Debug\net10.0\InterfaceITributavel.deps.json
+C:\Users\gui\poo\InterfaceITributavel\bin\Debug\net10.0\InterfaceITributavel.runtimeconfig.json
+C:\Users\gui\poo\InterfaceITributavel\bin\Debug\net10.0\InterfaceITributavel.dll
+C:\Users\gui\poo\InterfaceITributavel\bin\Debug\net10.0\InterfaceITributavel.pdb
+C:\Users\gui\poo\InterfaceITributavel\obj\Debug\net10.0\InterfaceITributavel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gui\poo\InterfaceITributavel\obj\Debug\net10.0\InterfaceITributavel.AssemblyInfoInputs.cache
+C:\Users\gui\poo\InterfaceITributavel\obj\Debug\net10.0\InterfaceITributavel.AssemblyInfo.cs
+C:\Users\gui\poo\InterfaceITributavel\obj\Debug\net10.0\InterfaceITributavel.csproj.CoreCompileInputs.cache
+C:\Users\gui\poo\InterfaceITributavel\obj\Debug\net10.0\InterfaceITributavel.sourcelink.json
+C:\Users\gui\poo\InterfaceITributavel\obj\Debug\net10.0\InterfaceITributavel.dll
+C:\Users\gui\poo\InterfaceITributavel\obj\Debug\net10.0\refint\InterfaceITributavel.dll
+C:\Users\gui\poo\InterfaceITributavel\obj\Debug\net10.0\InterfaceITributavel.pdb
+C:\Users\gui\poo\InterfaceITributavel\obj\Debug\net10.0\InterfaceITributavel.genruntimeconfig.cache
+C:\Users\gui\poo\InterfaceITributavel\obj\Debug\net10.0\ref\InterfaceITributavel.dll

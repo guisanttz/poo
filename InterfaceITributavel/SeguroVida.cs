@@ -5,8 +5,12 @@ using System.Threading.Tasks;
 
 namespace InterfaceITributavel
 {
-    public class SeguroVida
+    public class SeguroVida : ITributavel
     {
-        
+        public int ValorDoSeguro { get; set; }
+        public double CalcularTributos()
+        {
+            return 75;
+        }
     }
 }

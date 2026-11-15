@@ -7,6 +7,10 @@ namespace InterfaceITributavel
 {
     public class TotalizadorDeTributos
     {
-        
+        public double Total { get; set; }
+        public void Adicionar(ITributavel trib)
+        {
+            Total += trib.CalcularTributos();
+        }
     }
 }

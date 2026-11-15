@@ -10,7 +10,7 @@ namespace InterfaceITributavel
         public double Saldo { get; set; }
         public double CalcularTributos()
         {
-            return Saldo * (5 / 100);
+            return Saldo * 0.05;
         }        
     }
 }
