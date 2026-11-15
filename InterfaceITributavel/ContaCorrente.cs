@@ -5,8 +5,12 @@ using System.Threading.Tasks;
 
 namespace InterfaceITributavel
 {
-    public class ContaCorrente
+    public class ContaCorrente : ITributavel
     {
-        
+        public double Saldo { get; set; }
+        public double CalcularTributos()
+        {
+            return Saldo * (5 / 100);
+        }        
     }
 }
