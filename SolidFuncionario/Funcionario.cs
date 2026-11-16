@@ -14,8 +14,5 @@ namespace SolidFuncionario
             Nome = nome;
             Salario = salario;
         }
-        public virtual double CalcularSalario(string tipoFuncionario)
-        {
-        }
     }
 }

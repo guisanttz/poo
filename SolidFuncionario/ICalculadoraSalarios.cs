@@ -7,6 +7,6 @@ namespace SolidFuncionario
 {
     public interface ICalculadoraSalarios
     {
-        double calcularSalario(Funcionario funcionario);
+        public double CalcularSalario(Funcionario funcionario);
     }
 }

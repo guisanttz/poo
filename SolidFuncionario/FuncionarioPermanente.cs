@@ -5,11 +5,11 @@ using System.Threading.Tasks;
 
 namespace SolidFuncionario
 {
-    public class FuncionarioPermanente : Funcionario
+    public class FuncionarioPermanente : ICalculadoraSalarios
     {
-        public override double CalcularSalario()
+        public double CalcularSalario(Funcionario funcionario)
         {
-            return Salario * 1.3;
+            return funcionario.Salario * 1.3;
         }
     }
 }
