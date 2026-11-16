@@ -7,9 +7,9 @@ namespace SolidConta
 {
     public class ValidadorUsuarios
     {
-        public bool ValidarUsuario(Conta conta, string nome);
+       public bool ValidarUsuario(Conta conta, string nome)
         {
-            return conta1.Titular == nome;
+            return conta.Titular == nome;
         }
     }
 }

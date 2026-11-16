@@ -27,6 +27,7 @@ namespace SolidConta
             if (valor > Saldo)
             {
                 Console.WriteLine("Saldo insuficiente!");
+                return;
             }
             Saldo -= valor;
         }

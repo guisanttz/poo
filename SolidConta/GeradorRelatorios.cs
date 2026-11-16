@@ -7,9 +7,9 @@ namespace SolidConta
 {
     public class GeradorRelatorios
     {
-        public string GerarRelatorio(Conta conta);
+        public string GerarRelatorio(Conta conta)
         {
-            Console.WriteLine("Titular: {Titular}\tSaldo: {Saldo:C}");
+            return $"Titular: {conta.Titular}\tSaldo: {conta.Saldo:C}";
         }
     }
 }
